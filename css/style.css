@@ -1,0 +1,35 @@
+body {
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+header {
+    background-color: #b1cbf7;
+}
+
+main {
+    background-color: aliceblue;
+    font-size: 16px;
+}
+
+h1 {
+    color: #2155b1;
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    background-color: #b1cbf7;
+}
+
+p {
+    line-height: normal;
+}
+
+li {
+    display: inline;
+}
+
+footer {
+    background-color: #b1cbf7;
+}
