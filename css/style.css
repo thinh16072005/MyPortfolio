@@ -4,12 +4,9 @@ body {
 }
 
 div {
-    background-image: url('../images/background.jpg');
-    height: 200px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.8;
 }
 
 header {
@@ -57,9 +54,28 @@ nav {
 }
 
 p {
+    text-align: justify;
     line-height: normal;
 }
 
 footer {
     background-color: #b1cbf7;
+}
+
+.grid {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 20%; /* Adjust the gap as needed */
+}
+
+.photo-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
 }
