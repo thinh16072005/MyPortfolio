@@ -31,7 +31,7 @@ function undo() {
 }
 
 function pickImage() {
-    options = ["20240717_152216.jpg", "IMG_0318.jpg", "IMG_0330.jpg", "IMG_0333.jpg"]
+    options = ["20240717_152216.jpg", "IMG_0318.jpg", "IMG_0330.jpg", "IMG_0333.jpg", "20231022_095208.jpg", "20231028_123509.jpg"]
     currentImages = document.querySelectorAll("img");
     for (var i = 0; i < currentImages.length; i++) {
         console.log("Image:" + i)
