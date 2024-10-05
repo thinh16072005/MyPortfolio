@@ -85,7 +85,7 @@ img {
     border-color: #2155b1;
     border-style: solid;
 }
-    img:hover {
+    img:hover, img:focus {
         border-color: #2155b1;
         border-width: 5px; 
     }

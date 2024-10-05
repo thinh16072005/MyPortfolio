@@ -11,7 +11,7 @@
 <!--Link to the external javascript file-->
 <script src="js/main.js">defer</script>
 
-<body>
+<body onload="pickImage()">
     <h1>Hung Thinh's Portfolio</h1>
     <main>
         <nav>
@@ -48,10 +48,10 @@
             <h2>My Personal Photos</h2>
             <div id="image">Hover an image below to display here.</div>
             <div class="photo-container">
-                <img src="images/IMG_0318.jpg" alt="My photo 1" onmouseover="upDate(this)" onmouseout="undo()" width="200">
-                <img src="images/IMG_0330.jpg" alt="My photo 2" onmouseover="upDate(this)" onmouseout="undo()" width="200">
-                <img src="images/IMG_0333.jpg" alt="My photo 3" onmouseover="upDate(this)" onmouseout="undo()" width="200">
-                <img src="images/20240717_152216.jpg" alt="My photo 4" onmouseover="upDate(this)" onmouseout="undo(this)" width="200">
+                <img src="images/IMG_0318.jpg" onmouseover="upDate(this)" onmouseleave="undo()" alt="My photo 1" width="200">
+                <img src="images/IMG_0330.jpg" onmouseover="upDate(this)" onmouseleave="undo()" alt="My photo 2" width="200">
+                <img src="images/IMG_0333.jpg" onmouseover="upDate(this)" onmouseleave="undo()" alt="My photo 3" width="200">
+                <img src="images/20240717_152216.jpg" onmouseover="upDate(this)" onmouseleave="undo()" alt="My photo 4" width="200">
             </div>
         </section>
 

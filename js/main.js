@@ -29,3 +29,14 @@ function undo() {
         console.error("Element with id 'image' not found.");
     }
 }
+
+function pickImage() {
+    options = ["20240717_152216.jpg", "IMG_0318.jpg", "IMG_0330.jpg", "IMG_0333.jpg"]
+    currentImages = document.querySelectorAll("img");
+    for (var i = 0; i < currentImages.length; i++) {
+        console.log("Image:" + i)
+        randomImg = "images/" + options[Math.floor(Math.random() * options.length)];
+        currentImages[i].src = randomImg;
+        currentImages[i].setAttribute("tabindex", "0"); 
+    }
+}
